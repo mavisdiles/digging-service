@@ -42,14 +42,15 @@
    ```
    npm install
    ```
-4. Enter your API in `api.js`
-   ``` javascript
-   var spotifyApi = new SpotifyWebApi({
+4. Enter your API in api.js
+
+``` 
+  var spotifyApi = new SpotifyWebApi({
     clientId: "your id",
     clientSecret: "your secret",
     redirectUri: "redirectUri"
   });
-   ```
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
