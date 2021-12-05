@@ -3,15 +3,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+
+  <h3 align="center">인기 없는 가수 노래 추천 웹사이트</h3>
+
+  <p align="center">
+    Digging Website
+  </p>
+  
   <a href="http://khuhub.khu.ac.kr/2017110270/digging-service.git">
     <img src="/images/1.png" alt="Logo" width="300" height="100">
   </a>
-
-  <h3 align="center">Digging Website</h3>
-
-  <p align="center">
-    인기 없는 가수 노래 추천 웹사이트
-  </p>
 </div>
 
 
@@ -42,11 +43,11 @@
    npm install
    ```
 4. Enter your API in `api.js`
-   ```javascript
+   ``` javascript
    var spotifyApi = new SpotifyWebApi({
-    clientId: //your id,
-    clientSecret: //your secret,
-    redirectUri: //redirectUri
+    clientId: "your id",
+    clientSecret: "your secret",
+    redirectUri: "redirectUri"
   });
    ```
 
