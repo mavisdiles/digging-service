@@ -1,9 +1,9 @@
 const SpotifyWebApi = require('spotify-web-api-node'); // spotify api
 //const { search } = require('.');
 var spotifyApi = new SpotifyWebApi({
-    clientId: "faf7865d62b5488da2f6bca05e63a075", //your id
-    clientSecret: "b888f07e8986499aa70950b0235d81eb", //your secret
-    redirectUri: 'http://localhost:3000/callback' //redirectUri
+    clientId: "your id", 
+    clientSecret: "your secret",
+    redirectUri: 'redirectUri' 
   });
 
 const scopes = [
@@ -105,12 +105,6 @@ function getArtist(artistid,callback){
   });
 }
 module.exports.getArtist = getArtist;
-//followers.total
-//images[0]
-//name
-//popularity
-//id
-// Get albums by a certain artist
 
 function getArtistAlbums(artistid,callback){
   spotifyApi.getArtistAlbums(artistid)
@@ -122,23 +116,3 @@ function getArtistAlbums(artistid,callback){
   });
 }
 module.exports.getArtistAlbums = getArtistAlbums;
-
-
-// function search(){
-//   SearchUrl = `https://open.spotify.com/artist/4kyWODlwZxF4tiAe4LblhX`
-//   request(SearchUrl, (error, response, body) => {
-//     var data = body;
-//     console.log(body)
-//     // for (var j = 0; j < 10; j++) {
-//     //   var team_id = data["info"]["participants"][j]["teamId"]
-//     //   if (p_id == summoner_puuid) {
-//     //       my_info["kills"] += match["info"]["participants"][j]["kills"]
-//     //       win = match["info"]["participants"][j]["win"];
-//     //   }
-//     // }
-//   })
-// }
-// module.exports.search = search;
-// var item = data.body.artists.items.find((item,idx)=>{
-    //   item.popularity == "0";
-    // });
