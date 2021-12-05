@@ -8,7 +8,7 @@ const indexRoute = require("./routes/index");
 // 뷰엔진 설정
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/views"));
 
 // use routes
 app.use("/", indexRoute);
