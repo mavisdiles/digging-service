@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="http://khuhub.khu.ac.kr/2017110270/digging-service.git">
-    <img src="/views/img/backgrounds/spotify.jpg" alt="Logo" width="300" height="80">
+    <img src="/views/img/spotify.png" alt="Logo" width="300" height="80">
   </a>
 
   <h3 align="center">Digging Website</h3>
@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/views/img/backgrounds/capture.PNG" alt="Logo" width="600" height="300">
+<img src="/views/img/capture.PNG" alt="Logo" width="600" height="300">
 당신의 취향을 바탕으로 음악을 추천해주는 웹사이트입니다.
 
 * spotify API를 이용해 정확한 음악과 아티스트 데이터를 불러옵니다.
